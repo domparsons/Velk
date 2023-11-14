@@ -7,19 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC054CD02A9B41A7008532D0 /* NotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC054CCF2A9B41A7008532D0 /* NotesListView.swift */; };
+		EC1D239C2AB0A1D10018A4D7 /* AddNewNoteFromClipboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D239B2AB0A1D10018A4D7 /* AddNewNoteFromClipboardView.swift */; };
 		EC3C97172A8E795400DE0838 /* VelkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3C97162A8E795400DE0838 /* VelkApp.swift */; };
 		EC3C97192A8E795400DE0838 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3C97182A8E795400DE0838 /* ContentView.swift */; };
 		EC3C971B2A8E795500DE0838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3C971A2A8E795500DE0838 /* Assets.xcassets */; };
 		EC3C971E2A8E795500DE0838 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3C971D2A8E795500DE0838 /* Preview Assets.xcassets */; };
+		EC53126E2AB6DADB004A8219 /* CoreDataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53126D2AB6DADB004A8219 /* CoreDataExtensions.swift */; };
+		EC5312722AB776DD004A8219 /* UpdateFolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5312712AB776DD004A8219 /* UpdateFolderView.swift */; };
+		EC9CD4202ADE863700D0A307 /* CodeEditor in Frameworks */ = {isa = PBXBuildFile; productRef = EC9CD41F2ADE863700D0A307 /* CodeEditor */; };
+		EC9CD4222ADEE51600D0A307 /* UpdateNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9CD4212ADEE51600D0A307 /* UpdateNoteView.swift */; };
+		ECADF2D52AAA20BD00321EF8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECADF2D42AAA20BD00321EF8 /* ViewModel.swift */; };
+		ECADF2D72AAA329D00321EF8 /* AddNewFolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECADF2D62AAA329D00321EF8 /* AddNewFolderView.swift */; };
+		ECCB855E2A9B48AD008EA999 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCB855D2A9B48AD008EA999 /* DetailView.swift */; };
+		ECCB85602A9B48FC008EA999 /* AddNewNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCB855F2A9B48FC008EA999 /* AddNewNoteView.swift */; };
+		ECCE14BF2AE590E600B012B3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCE14BE2AE590E600B012B3 /* SettingsView.swift */; };
+		ECD20FED2A933DAB00455746 /* Velk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECD20FEB2A933DAB00455746 /* Velk.xcdatamodeld */; };
+		ECD20FEF2A933F6000455746 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD20FEE2A933F6000455746 /* DataController.swift */; };
+		ECD7EB0E2AA371ED00C2621B /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7EB0D2AA371ED00C2621B /* SidebarView.swift */; };
+		ECD7EB252AA37E1B00C2621B /* Folder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7EB212AA37E1B00C2621B /* Folder+CoreDataClass.swift */; };
+		ECD7EB262AA37E1B00C2621B /* Folder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7EB222AA37E1B00C2621B /* Folder+CoreDataProperties.swift */; };
+		ECD7EB272AA37E1B00C2621B /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7EB232AA37E1B00C2621B /* Note+CoreDataClass.swift */; };
+		ECD7EB282AA37E1B00C2621B /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7EB242AA37E1B00C2621B /* Note+CoreDataProperties.swift */; };
+		ECE3FB942ABCD0DA003D2CEC /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE3FB932ABCD0DA003D2CEC /* ColorExtensions.swift */; };
+		ECE536842AE40D6E00B37BFF /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE536832AE40D6E00B37BFF /* Enumerations.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EC09A3422ABB621E004E4895 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		EC054CCF2A9B41A7008532D0 /* NotesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListView.swift; sourceTree = "<group>"; };
+		EC1D239B2AB0A1D10018A4D7 /* AddNewNoteFromClipboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewNoteFromClipboardView.swift; sourceTree = "<group>"; };
 		EC3C97132A8E795400DE0838 /* Velk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Velk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3C97162A8E795400DE0838 /* VelkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelkApp.swift; sourceTree = "<group>"; };
 		EC3C97182A8E795400DE0838 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC3C971A2A8E795500DE0838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC3C971D2A8E795500DE0838 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC3C971F2A8E795500DE0838 /* Velk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Velk.entitlements; sourceTree = "<group>"; };
+		EC53126D2AB6DADB004A8219 /* CoreDataExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataExtensions.swift; sourceTree = "<group>"; };
+		EC5312712AB776DD004A8219 /* UpdateFolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateFolderView.swift; sourceTree = "<group>"; };
+		EC65B9152AD6EFBD003AB0B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EC9CD4212ADEE51600D0A307 /* UpdateNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateNoteView.swift; sourceTree = "<group>"; };
+		ECADF2D42AAA20BD00321EF8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		ECADF2D62AAA329D00321EF8 /* AddNewFolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewFolderView.swift; sourceTree = "<group>"; };
+		ECCB855D2A9B48AD008EA999 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		ECCB855F2A9B48FC008EA999 /* AddNewNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewNoteView.swift; sourceTree = "<group>"; };
+		ECCE14BE2AE590E600B012B3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		ECD20FEC2A933DAB00455746 /* Velk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Velk.xcdatamodel; sourceTree = "<group>"; };
+		ECD20FEE2A933F6000455746 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		ECD7EB0D2AA371ED00C2621B /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		ECD7EB212AA37E1B00C2621B /* Folder+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ECD7EB222AA37E1B00C2621B /* Folder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ECD7EB232AA37E1B00C2621B /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ECD7EB242AA37E1B00C2621B /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ECE3FB932ABCD0DA003D2CEC /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		ECE536832AE40D6E00B37BFF /* Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +80,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9CD4202ADE863700D0A307 /* CodeEditor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC09A33E2ABB621E004E4895 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC3C970A2A8E795400DE0838 = {
 			isa = PBXGroup;
 			children = (
 				EC3C97152A8E795400DE0838 /* Velk */,
 				EC3C97142A8E795400DE0838 /* Products */,
+				EC09A33E2ABB621E004E4895 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +114,14 @@
 		EC3C97152A8E795400DE0838 /* Velk */ = {
 			isa = PBXGroup;
 			children = (
+				EC65B9152AD6EFBD003AB0B1 /* Info.plist */,
 				EC3C97162A8E795400DE0838 /* VelkApp.swift */,
-				EC3C97182A8E795400DE0838 /* ContentView.swift */,
+				ECE536822AE40D5F00B37BFF /* Utilities */,
+				ECADF2CC2AAA1E2600321EF8 /* Note-Folder Entities */,
+				ECADF2CD2AAA1EB000321EF8 /* Data Management */,
+				ECADF2CF2AAA1EDB00321EF8 /* View Models */,
+				EC53126C2AB6DA82004A8219 /* Extensions */,
+				ECADF2CE2AAA1EBB00321EF8 /* Views */,
 				EC3C971A2A8E795500DE0838 /* Assets.xcassets */,
 				EC3C971F2A8E795500DE0838 /* Velk.entitlements */,
 				EC3C971C2A8E795500DE0838 /* Preview Content */,
@@ -69,6 +137,77 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		EC53126C2AB6DA82004A8219 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EC53126D2AB6DADB004A8219 /* CoreDataExtensions.swift */,
+				ECE3FB932ABCD0DA003D2CEC /* ColorExtensions.swift */,
+			);
+			name = Extensions;
+			path = "View Models/Extensions";
+			sourceTree = "<group>";
+		};
+		ECADF2CC2AAA1E2600321EF8 /* Note-Folder Entities */ = {
+			isa = PBXGroup;
+			children = (
+				ECD7EB212AA37E1B00C2621B /* Folder+CoreDataClass.swift */,
+				ECD7EB222AA37E1B00C2621B /* Folder+CoreDataProperties.swift */,
+				ECD7EB232AA37E1B00C2621B /* Note+CoreDataClass.swift */,
+				ECD7EB242AA37E1B00C2621B /* Note+CoreDataProperties.swift */,
+			);
+			path = "Note-Folder Entities";
+			sourceTree = "<group>";
+		};
+		ECADF2CD2AAA1EB000321EF8 /* Data Management */ = {
+			isa = PBXGroup;
+			children = (
+				ECD20FEE2A933F6000455746 /* DataController.swift */,
+				ECD20FEB2A933DAB00455746 /* Velk.xcdatamodeld */,
+			);
+			path = "Data Management";
+			sourceTree = "<group>";
+		};
+		ECADF2CE2AAA1EBB00321EF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC3C97182A8E795400DE0838 /* ContentView.swift */,
+				ECD7EB0D2AA371ED00C2621B /* SidebarView.swift */,
+				EC054CCF2A9B41A7008532D0 /* NotesListView.swift */,
+				ECCB855D2A9B48AD008EA999 /* DetailView.swift */,
+				ECADF2D82AAA51FE00321EF8 /* Sheets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECADF2CF2AAA1EDB00321EF8 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECADF2D42AAA20BD00321EF8 /* ViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		ECADF2D82AAA51FE00321EF8 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				ECADF2D62AAA329D00321EF8 /* AddNewFolderView.swift */,
+				ECCB855F2A9B48FC008EA999 /* AddNewNoteView.swift */,
+				EC1D239B2AB0A1D10018A4D7 /* AddNewNoteFromClipboardView.swift */,
+				EC9CD4212ADEE51600D0A307 /* UpdateNoteView.swift */,
+				EC5312712AB776DD004A8219 /* UpdateFolderView.swift */,
+				ECCE14BE2AE590E600B012B3 /* SettingsView.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+		ECE536822AE40D5F00B37BFF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				ECE536832AE40D6E00B37BFF /* Enumerations.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,12 +218,16 @@
 				EC3C970F2A8E795400DE0838 /* Sources */,
 				EC3C97102A8E795400DE0838 /* Frameworks */,
 				EC3C97112A8E795400DE0838 /* Resources */,
+				EC09A3422ABB621E004E4895 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Velk;
+			packageProductDependencies = (
+				EC9CD41F2ADE863700D0A307 /* CodeEditor */,
+			);
 			productName = Velk;
 			productReference = EC3C97132A8E795400DE0838 /* Velk.app */;
 			productType = "com.apple.product-type.application";
@@ -97,7 +240,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					EC3C97122A8E795400DE0838 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -113,6 +256,9 @@
 				Base,
 			);
 			mainGroup = EC3C970A2A8E795400DE0838;
+			packageReferences = (
+				EC9CD41E2ADE863700D0A307 /* XCRemoteSwiftPackageReference "CodeEditor" */,
+			);
 			productRefGroup = EC3C97142A8E795400DE0838 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +285,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECCE14BF2AE590E600B012B3 /* SettingsView.swift in Sources */,
+				EC9CD4222ADEE51600D0A307 /* UpdateNoteView.swift in Sources */,
 				EC3C97192A8E795400DE0838 /* ContentView.swift in Sources */,
+				ECD20FEF2A933F6000455746 /* DataController.swift in Sources */,
+				ECE536842AE40D6E00B37BFF /* Enumerations.swift in Sources */,
+				ECD7EB282AA37E1B00C2621B /* Note+CoreDataProperties.swift in Sources */,
+				ECCB85602A9B48FC008EA999 /* AddNewNoteView.swift in Sources */,
+				ECD7EB262AA37E1B00C2621B /* Folder+CoreDataProperties.swift in Sources */,
+				ECCB855E2A9B48AD008EA999 /* DetailView.swift in Sources */,
+				EC53126E2AB6DADB004A8219 /* CoreDataExtensions.swift in Sources */,
+				EC1D239C2AB0A1D10018A4D7 /* AddNewNoteFromClipboardView.swift in Sources */,
+				ECADF2D52AAA20BD00321EF8 /* ViewModel.swift in Sources */,
+				ECD7EB0E2AA371ED00C2621B /* SidebarView.swift in Sources */,
 				EC3C97172A8E795400DE0838 /* VelkApp.swift in Sources */,
+				EC5312722AB776DD004A8219 /* UpdateFolderView.swift in Sources */,
+				ECADF2D72AAA329D00321EF8 /* AddNewFolderView.swift in Sources */,
+				ECD7EB252AA37E1B00C2621B /* Folder+CoreDataClass.swift in Sources */,
+				ECD7EB272AA37E1B00C2621B /* Note+CoreDataClass.swift in Sources */,
+				ECE3FB942ABCD0DA003D2CEC /* ColorExtensions.swift in Sources */,
+				ECD20FED2A933DAB00455746 /* Velk.xcdatamodeld in Sources */,
+				EC054CD02A9B41A7008532D0 /* NotesListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,9 +345,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -240,9 +407,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -266,14 +435,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Velk/Velk.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Velk/Preview Content\"";
 				DEVELOPMENT_TEAM = HYFCKS2YZ3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Velk/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Velk;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,14 +467,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Velk/Velk.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Velk/Preview Content\"";
 				DEVELOPMENT_TEAM = HYFCKS2YZ3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Velk/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Velk;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -336,6 +515,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC9CD41E2ADE863700D0A307 /* XCRemoteSwiftPackageReference "CodeEditor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ZeeZide/CodeEditor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC9CD41F2ADE863700D0A307 /* CodeEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC9CD41E2ADE863700D0A307 /* XCRemoteSwiftPackageReference "CodeEditor" */;
+			productName = CodeEditor;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		ECD20FEB2A933DAB00455746 /* Velk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECD20FEC2A933DAB00455746 /* Velk.xcdatamodel */,
+			);
+			currentVersion = ECD20FEC2A933DAB00455746 /* Velk.xcdatamodel */;
+			path = Velk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EC3C970B2A8E795400DE0838 /* Project object */;
 }
